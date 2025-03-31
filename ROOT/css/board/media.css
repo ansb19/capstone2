@@ -1,0 +1,139 @@
+@media (max-width: 1000px) {
+    .board_wrap {
+        width: 100%;
+        min-width: 320px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .board_list .num,
+    .board_list .writer,
+    .board_list .count {
+        display: none;
+    }
+
+    .board_list .date {
+        width: 40%;
+    }
+
+    .board_list .title {
+        text-indent: 10px;
+    }
+
+    .board_list .top .title {
+        text-indent: 0;
+    }
+
+    .board_page a {
+        width: 26px;
+        height: 26px;
+    }
+
+    .board_page a.bt {
+        padding-top: 7px;
+    }
+    
+    .board_page a.num {
+        padding-top: 6px;
+    }
+
+    .board_view .info dl {
+        width: 50%;
+        padding: 0;
+    }
+
+    .board_view .info dl:nth-child(-n+2) {
+        margin-bottom: 5px;
+    }
+
+    .board_view .info dl::before {
+        display: none;
+    }
+
+    .board_view .info dl dt,
+    .board_view .info dl dd {
+        font-size: 1.2rem;
+    }
+
+    .board_write .info dl {
+        width: 49%;
+    }
+
+    .board_write .info dl:first-child {
+        margin-right: 2%;
+    }
+
+    .board_write .title dt,
+    .board_write .info dt {
+        display: none;
+    }
+
+    .board_write .title dd,
+    .board_write .info dd {
+        width: 100%;
+    }
+
+    .board_write .title input[type="text"],
+    .board_write .info input[type="text"],
+    .board_write .info input[type="password"] {
+        width: 100%;
+    }
+}
+.local{
+    width:20%;
+    text-align: center;
+    margin:0 auto;
+    padding:10px;
+    line-height: 40px;
+}
+.schedulelocal{
+    width:20%;
+    text-align: center;
+    margin:0 auto;
+    padding:10px;
+    line-height: 40px;
+    border:2px solid lightgray;
+}
+#local1{
+    width: 80px;
+    text-align: center;
+    margin:5px;
+    padding: 10px;
+}
+#local1:hover{
+    width: 80px;
+    text-align: center;
+    margin:5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+#local2{
+    width: 80px;
+    text-align: center;
+    margin:5px;
+    padding: 10px;
+}
+#local2:hover{
+    width: 80px;
+    text-align: center;
+    margin:5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.mwrap{
+    width:20%;
+    margin:0 auto;
+    line-height: 15px;
+    padding: 10px;
+}
+.sbutton{
+    margin:20px 5px 5px 5px;
+    width:60px;
+    height:40px;
+    background-color: #41506e;
+    color:white;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.4286em;
+    font-weight: 500;
+}

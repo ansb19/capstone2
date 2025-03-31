@@ -1,0 +1,55 @@
+.wrap2{
+    width:60%;
+    height:1000px;
+    margin:0 auto;
+    border:5px double black;
+}
+.resumet{
+    margin:0 auto;
+    text-align: center;
+    width:90%;
+    background-color: white;
+}
+.resumet_1{
+    margin:0 auto;
+    text-align: center;
+    width:100%;
+}
+.resumeinput{
+    width:97%; border: 0;
+}
+.resumearea{
+    width:99%; border: 0;
+}
+.inputimg{
+    width:10px;
+    height:10px;
+    border:0;
+    vertical-align: middle;
+}
+#preview{
+    width:100%;
+    height:100%;
+    border:0px;
+}
+.thead1{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+.normal{
+    background-color: #e3fcff;
+    margin: 0;
+}
+.normal1{
+    background-color: white;
+}
+.allstyle{
+    margin:0 auto;
+    text-align: center;
+}
+.buttonstyle{
+    width:10%;
+    background-color: white;
+    height:50px;
+}

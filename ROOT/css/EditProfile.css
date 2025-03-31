@@ -1,0 +1,189 @@
+.Edit_Middle{
+    top:0px;
+    width:100%;
+    height:600px;
+    position: relative;
+    vertical-align: middle;
+}
+.Edit_Middle2{
+    width: 700px;
+    margin: 0 auto;
+}
+.Edit_1{
+    padding:25px;
+    border-bottom: 1px solid #5D5D5D;
+    height: 46px;
+    line-height: 46px;
+}
+.Edit_2{
+    padding:15px;
+    text-align: center;
+}
+.Edit_3{
+    text-align: center;
+    border:1px solid #5D5D5D;
+    width:100%;
+    height:150px;
+    line-height: 152px;
+    border-radius: 5px;
+    background-color: #BDBDBD;
+}
+.Edit_Box{
+    width:300px;
+    height:35px;
+    border:1px solid #6699FF;
+    background-color: #B2CCFF;
+    border-radius: 5px;
+    
+}
+.Edit_Box:hover{
+    width:300px;
+    height:35px;
+    border:1px solid #6699FF;
+    background-color: white;
+    border-radius: 5px;
+}
+.Edit_Box2{
+    width:60px;
+    height:39px;
+    border:1px solid #003399;
+    border-radius: 5px;
+    color:white;
+    background-color: #4174D9;
+}
+.Edit_Box2:hover{
+    width:60px;
+    height:39px;
+    border:1px solid #003399;
+    border-radius: 5px;
+    color:black;
+    background-color: white;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing : 0.5px;
+}
+
+.Edit1_Middle{
+    top:-100px;
+    width:100%;
+    height:100%;
+    position: absolute;
+    vertical-align: middle;
+    background-color: lightgray;
+}
+.Edit1_Middle2{
+    width: 20%;
+    height: 1400px;
+    top: -40px;
+    position:relative;
+    
+    float:left;
+    background-color: white;
+}
+.Edit1_1{
+    position:relative;
+    top:50px;
+    text-align: center;
+    padding:10px;
+    height:100%;
+    border-right: 5px solid #5D5D5D;
+    box-shadow: 0px -40px 25px rgb(0, 0, 0);
+    background-color: white;
+}
+.Edit1_2{
+    padding:15px;
+    text-align: center;
+}
+.Edit1_3{
+    text-align: center;
+    border:1px solid #5D5D5D;
+    width:100%;
+    height:150px;
+    line-height: 152px;
+    border-radius: 5px;
+    background-color: #BDBDBD;
+}
+.Edit1_Middle3{
+    display:inline-block;
+    width: 79%;
+    height: 100%;
+    top: 0px;
+    position:relative;
+}
+.Edit2_1{
+    position:relative;
+    top:100px;
+    text-align: center;
+    padding:10px;
+    height:500px;
+    width:600px;
+    border:1px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.Edit_Out{
+    width:200px;
+    height:50px;
+    background-color: lightcoral;
+    border:1px red solid;
+    border-radius: 5px;
+}
+.Edit_Out:hover{
+    width:200px;
+    height:50px;
+    background-color: white;
+    border:1px red solid;
+    border-radius: 5px;
+}
+.Edit_In{
+    width:200px;
+    height:50px;
+    background-color: #4174D9;
+    border:1px solid #003399;
+    border-radius: 5px;
+}
+.Edit_In:hover{
+    width:200px;
+    height:50px;
+    background-color: white;
+    border:1px solid #003399;
+    border-radius: 5px;
+}
+.Box_Readonly{
+    background-color: lightgray;
+    width:300px;
+    height:40px;
+    margin:10px;
+    border-radius: 5px;
+}
+.Edit_B{
+    width:300px;
+    height:40px;
+    margin:10px;
+    border-radius: 5px;
+    border:1px solid red;
+}
+.Edit_T{
+    width:80px;
+    display:inline-block;
+}
+.Edit_Button{
+    width:100px;
+    height:30px;
+    border:1px solid green;
+    background-color: white;
+    border-radius: 5px;
+}
+.Edit_Button:hover{
+    width:100px;
+    height:30px;
+    border:1px solid green;
+    background-color: #A9F5BC;
+    border-radius: 5px;
+}
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+

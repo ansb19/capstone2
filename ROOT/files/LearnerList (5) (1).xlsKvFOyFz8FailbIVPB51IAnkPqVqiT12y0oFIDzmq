@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//top.location.href="/";
+</script>
+
+
+<style>
+    #loading {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: fixed;
+      display: block;
+      opacity: 0.7;
+      background-color: #fff;
+      z-index: 99;
+      text-align: center;
+    }
+
+
+
+    #loading-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 100;
+    }
+</style>
+
+<script type="text/javascript">
+	var loadingYn = "Y";
+</script>
+ 
+<script type="text/javascript">
+	var commonResultMessage = "null";
+	if(commonResultMessage=="" || commonResultMessage=="null") {
+		commonResultMessage = "null";
+	}
+	var localeKey = "ko";
+</script>
+
+<html xml:lang="ko-kr" lang="ko-kr" xmlns="http://www.w3.org/1999/xhtml">
+
+<body>
+
+<form name="learnerForm" method="post" action="/Learner.do">
+		<div id="listBox">
+			<div>
+				<!-- element 부분 -->
+				<dl >
+					<dt>
+						
+							<h4>
+								대학본부 
+								C20163325
+								안영석
+							</h4>
+					</dt>
+					<dd>
+						<table  border="1" summary="수강생학습현황 관련 학생정보입니다.">
+						<caption>학생정보 리스트</caption>
+						<thead>
+							<tr>
+								<th>과 정</th>
+								<th>학 과</th>
+								<th>학 번</th>
+								<th>이 름</th>
+								<th>아이디</th>
+								<!-- <th>이메일</th>
+								<th>전화번호</th> -->
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>정규과정</td> 
+								<td>대학본부</td>
+								<td>C20163325&nbsp;</td>
+								<td>안영석 </td>
+								<td>C20163325</td>
+								<!-- <td>dhkdwk1997@naver.com</td>
+								<td>010-2563-8995</td> -->
+							</tr>
+						</tbody>
+						</table>
+					</dd>
+				</dl>
+				<!-- //element 부분 -->
+				<dl >
+					<dt><h5>공지사항 조회 현황</h5></dt>
+					<dd>
+						<table border="1" class="boardListBasic"  summary="공지사항 조회현황 리스트입니다.">
+						<caption>공지사항 조회현황 리스트</caption>
+							<thead>
+								<tr>
+									<th class="num">번 호</th>
+									<th>게시판명</th>
+									<th>게시글 명</th>
+									<th>조회수</th>
+								</tr>
+							</thead>
+							<tbody>
+								
+									
+									
+									
+									
+									
+									<tr>
+										<td>9</td>
+										<td>공지사항</td>
+										<td class="textLeft">인체의신비 퀴즈안내</td>
+										<td>1</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>8</td>
+										<td>공지사항</td>
+										<td class="textLeft">인체의 신비 수업관련 안내</td>
+										<td>1</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>7</td>
+										<td>공지사항</td>
+										<td class="textLeft">인체의신비 기말고사 안내</td>
+										<td>0</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>6</td>
+										<td>공지사항</td>
+										<td class="textLeft">중간고사</td>
+										<td>0</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>5</td>
+										<td>공지사항</td>
+										<td class="textLeft">기말고사 관련 공지</td>
+										<td>0</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>4</td>
+										<td>공지사항</td>
+										<td class="textLeft">기말고사점수공지</td>
+										<td>0</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>3</td>
+										<td>공지사항</td>
+										<td class="textLeft">인체의신비 중간고사 안내</td>
+										<td>0</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>2</td>
+										<td>공지사항</td>
+										<td class="textLeft">인체의 신비 개강 안내</td>
+										<td>0</td>
+									</tr>
+									
+									
+									
+									<tr>
+										<td>1</td>
+										<td>공지사항</td>
+										<td class="textLeft">중간고사 성적확인 기간 안내</td>
+										<td>0</td>
+									</tr>
+									
+								
+								
+								
+							</tbody>
+						</table>
+					</dd>
+					<dt><h5>과제 현황</h5></dt>
+					<dd>
+						<table border="1"  summary="과제현황 리스트입니다.">
+						<caption>과제현황 리스트</caption>
+							<thead>
+								<tr>
+									<th >번 호</th>
+									<th>과제명</th>
+									<th>제출기간</th>
+									<th>제출 여부</th>
+									<th>점 수</th>
+									<th>성적공개</th>
+									<th>성적반영</th>
+									<th>성적공개일자</th>
+								</tr>
+							</thead>
+							<tbody>
+							
+							</tbody>
+						</table>
+					</dd>
+					<dt><h5>토론 현황</h5></dt>
+					<dd>
+						<table border="1" summary="토론현황 리스트입니다.">
+						<caption>토론현황 리스트</caption>
+							<thead>
+								<tr>
+									<th class="num">번 호</th>
+									<th>토론 주제</th>
+									<th>작성글</th>
+									<th>토론 기간</th>
+									<th>점 수</th>
+									<th>성적공개</th>
+									<th>성적반영</th>
+									<th>성적반영</th>
+									<th>기간 후 조회허용</th>
+									
+								</tr>
+							</thead>
+							<tbody>
+							
+							</tbody>
+						</table>
+					</dd>
+					<dt><h5>시험 현황</h5></dt>
+					<dd>
+						<table border="1"  summary="시험현황 리스트입니다.">
+						<caption>시험현황 리스트</caption>
+							<thead>
+								<tr>
+									<th class="num">번 호</th>
+									<th>시험명</th>
+									<th>시험기간 </th>
+									<th>응시 여부</th>
+									<th>점 수</th>
+									<th>성적공개</th>
+									<th>성적공개일자</th>
+								</tr>
+							</thead>
+							<tbody>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								<tr>
+									<td>2</td>
+									<td class="textLeft">2023학년도 1학기 인체의신비 중간고사 </td>
+									<td>2023-04-14 (09:00) ~ 2023-04-14 (11:30)</td>
+									
+									
+									<td class="fcBlue">완료</td>
+									
+									
+									<td>100.0</td>
+									
+									<td class="fcBlue">공 개</td>
+									
+									<td>2050-12-31 (00:00)</td>
+								</tr>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								<tr>
+									<td>1</td>
+									<td class="textLeft">2023학년도 1학기 인체의신비 기말고사</td>
+									<td>2023-06-02 (09:00) ~ 2023-06-02 (10:00)</td>
+									
+									
+									<td class="fcBlue">완료</td>
+									
+									
+									<td>100.0</td>
+									
+									<td class="fcBlue">공 개</td>
+									
+									<td>2023-06-07 (09:00)</td>
+								</tr>
+								
+								
+							</tbody>
+						</table>
+					</dd>
+					<dt><h5>팀 활동 현황</h5></dt>
+					<dd>
+						<table border="1"  summary="팀 활동현황 리스트입니다.">
+						<caption>팀 활동현황 리스트</caption>
+							<thead>
+								<tr>
+									<th class="num">번 호</th>
+
+									<th>소속 팀</th>
+									<th>팀 활동 명</th>
+									<th>활동기간</th>
+									<th>점 수</th>
+									<th>성적공개</th>
+									<th>성적공개일자</th>
+								</tr>
+							</thead>
+							<tbody>
+								 
+								
+								
+								
+							</tbody>
+						</table>
+					</dd>
+					<dt><h5>기타 활동 현황</h5></dt>
+					<dd>
+						<table border="1" summary="기타활동현황 리스트입니다.">
+						<caption>기타활동현황 리스트</caption>
+							<thead>
+								<tr>
+									<th class="num">번 호</th>
+									<th>게시판 명</th>
+									<th>제 목</th>
+									<th>파 일</th>
+									<th>작성일</th>
+									<th>댓 글</th>
+									<th>조회수</th>
+								</tr>
+							</thead>
+							<tbody>
+							
+							
+							
+							<tr>
+								<td colspan="7">검색된 게시글이 없습니다.</td>
+							</tr>
+							
+							</tbody>
+						</table>
+					</dd>
+				</dl>
+			</div>
+		</div>
+</form>
+</body>
+
+</html>

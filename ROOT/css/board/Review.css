@@ -1,0 +1,33 @@
+.Rcontainer{
+    width:50%;
+    text-align: center;
+    margin:0 auto;
+}
+.rt{
+    width:100%;
+    margin:0 auto;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.no{
+    width:5%;
+}
+.id{
+    width:10%;
+}
+.title{
+    width:20%;
+}
+.content{
+    width:45%;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.business{
+    width:15%;
+}
+.ratings{
+    width:5%; 
+}

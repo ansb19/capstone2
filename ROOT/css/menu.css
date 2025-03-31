@@ -1,0 +1,42 @@
+.box{
+    height:100%;
+    width: 30%;
+    position: fixed;
+    float: left;
+    left: -30%;
+    background-color: antiquewhite;
+    z-index: 400;
+}
+/* 아직 수정중 */
+/* 로그인 실선 */
+      .hr-sect {
+        display: flex;
+        flex-basis: 100%;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.35);
+        font-size: 12px;
+        margin: 8px 0px;
+        color: yellow;
+      }
+      .hr-sect::before,
+      .hr-sect::after {
+        content: "";
+        flex-grow: 1;
+        background: yellow;
+        height: 1px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 10px 16px;
+        padding: 1px;
+      }
+      /* 아직 수정중 */
+.register_button{
+    width: 30%;
+    height: 15%;
+    background-color: gray;
+    color: yellow;
+    border: 1px double yellow;
+}
+.register_button:hover{
+    background-color: white;
+}
