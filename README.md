@@ -4,4 +4,5 @@
 
 참고할 디렉토리
 /ROOT -> 프로젝트 전체적인 디렉토리
+
 /app/src/main/java/ -> db connection 및 xml api 사용
